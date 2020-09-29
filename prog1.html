@@ -1,0 +1,68 @@
+<html>
+<head>
+<title> MY FIRST WEBUI PROGRAM </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body id="grad1">
+<style>
+#grad1 {
+	height: 55px;
+	background-color: Black;
+	background-image: linear-gradient(to right, Black, SlateGray);
+}
+</style>
+<br>
+<br>
+<center><b><h1> ## LINUX TERMINAL ## </h1></b></center>
+<br>
+<style>
+body, html {
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+ * {
+	box-sizing: border-box;
+ }
+ .container {
+	 position: center;
+	 right: 0;
+         margin: 20px;
+	 max-width: 300px;
+	 padding: 16px;
+	 background-color: white;
+ }
+ input[type=text] {
+	 width:100%;
+	 padding:15px;
+	 margin: 5px 0 22px 0;
+	 border: none;
+	 background: #f1f1f1;
+ }
+ input[type=text]:focus; {
+	 background-color: #ddd;
+	 outline: none;
+ }
+ .btn {
+	 background-color: #4CAF50;
+	 color: white;
+	 padding: 16px 20px;
+	 border: none;
+	 cursor: pointer;
+	 width: 100%;
+	 opacity: 0.9;
+ }
+ .btn:hover {
+	 opacity: 1;
+ }
+</style>
+</head>
+<body>
+<center>
+<h2></h2>
+<form action="http://192.168.1.209/cgi-bin/fcs.py" class="container">
+<h3>Enter Your Command:<input type="text" placeholder="Enter here" name="c">
+<br>
+<button type="submit" class="btn">Submit</button>
+</center>
+</form>
+</body>
+</html>
